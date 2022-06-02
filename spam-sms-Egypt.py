@@ -2,9 +2,11 @@ import os,sys
 os.system("clear")
 try:
 	import requests
+	import pyfiglet
 except:
 	os.system("pip install --upgrade pip")
 	os.system("pip install requests")
+	os.system("pip install pyfiglet")
 	os.system("clear")
 
 #color
@@ -27,7 +29,12 @@ global n
 n = ('\n')
 s = requests.session()
 
-print(R+"[+]"+B+"___"+W+"__Developer__"+P+"Adel++Fox"+B+"____"+R+"[+]"+n)
+print(R+"[+]"+B+"___"+W+"__Developer__"+P+"Adel++Fox"+B+"____"+R+"[+]")
+
+print(pyfiglet.figlet_format("spam sms"))
+print(pyfiglet.figlet_format("Egypt"))
+
+print("#########__Adel___Fox__###########"+n)
 
 def orange():
 	number =input(n+P+"[+]Enter Number:")
@@ -113,6 +120,7 @@ elif choose =='3':
 	
 elif choose =='4':
 	etisalat()
+	
 else:
-    print(R+n+"Error,  choose from list"+n)
+	print(R+n+"Error ,  choose from list"+n)
 	
