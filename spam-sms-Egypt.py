@@ -114,5 +114,5 @@ elif choose =='3':
 elif choose =='4':
 	etisalat()
 else:
-    print(n+R+"Error,  choose from list")
+    print(R+n+"Error,  choose from list"+n)
 	
