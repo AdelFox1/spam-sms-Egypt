@@ -1,4 +1,4 @@
-import os,sys
+import os,sys,time
 os.system("clear")
 try:
 	import requests
@@ -125,4 +125,5 @@ elif choose =='4':
 	
 else:
 	print(R+n+"Error ,  choose from list"+n)
-	
+	time.sleep(1)
+	os.system('python spam-sms-Egypt.py')
