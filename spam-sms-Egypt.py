@@ -8,6 +8,7 @@ except:
 	os.system("pip install requests")
 	os.system("pip install pyfiglet")
 	os.system("clear")
+	os.system('python spam-sms-Egypt.py')
 
 #color
 R ='\033[1;31m'
@@ -33,6 +34,7 @@ print(R+"[+]"+B+"___"+W+"__Developer__"+P+"Adel++Fox"+B+"____"+R+"[+]")
 
 print(pyfiglet.figlet_format("spam sms"))
 print(pyfiglet.figlet_format("Egypt"))
+
 
 print("#########__Adel___Fox__###########"+n)
 
