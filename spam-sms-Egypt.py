@@ -1,5 +1,7 @@
 import os,sys,time
 os.system("clear")
+os.system('git pull')
+os.system("clear")
 try:
 	import requests
 	import pyfiglet
