@@ -132,6 +132,7 @@ def list():
 	print("[2]we")
 	print("[3]vodafone")
 	print("[4]etisalat")
+	print("[5]All Networks")
 list()
 choose = input(n+P+"[+]choose:")
 
@@ -146,6 +147,9 @@ elif choose =='3':
 	
 elif choose =='4':
 	etisalat()
+	
+elif choose =='5':
+	print(R+n+'[+]soon')
 	
 else:
 	print(R+n+"Error ,  choose from list"+n)
