@@ -128,6 +128,22 @@ def etisalat():
 				print(R+'Error')
 		except:pass
 
+def all():
+	number =input(n+P+"[+]Enter Number:")
+	print(n)
+	url1 = ('https://adel-fox-spam-sms-all-network.herokuapp.com/?number='+number)
+	while True:
+		try:
+			req = s.get(url1).json()
+			re = req['result']
+			if 'Done send' in re:
+				print(G+'Done Send ✅')
+			elif 'Failed' in re:
+				print(R+'Failed ❌')
+			else:
+				print(R+'Error')
+		except:pass
+
 
 def list():
 	print(G+"[1]orange")
@@ -151,7 +167,7 @@ elif choose =='4':
 	etisalat()
 	
 elif choose =='5':
-	print(R+n+'[+]soon')
+	all()
 	
 else:
 	print(R+n+"Error ,  choose from list"+n)
