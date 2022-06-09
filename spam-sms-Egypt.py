@@ -39,7 +39,7 @@ print(pyfiglet.figlet_format("Egypt"))
 code =""" 
 -------------------------------------------------------------------------
 - Code BY : Adel Fox
-- Github : https://github.com/AdelFox1
+- Github :  https://github.com/AdelFox1
 - My User : https://t.me/Opps_Error
 - Telegram: https://t.me/AdelFoxChannel
 - Telegram: https://t.me/A_TEAM_1
