@@ -32,13 +32,22 @@ global n
 n = ('\n')
 s = requests.session()
 
-print(R+"[+]"+B+"___"+W+"__Developer__"+P+"Adel++Fox"+B+"____"+R+"[+]")
 
-print(pyfiglet.figlet_format("spam sms"))
+print(R+pyfiglet.figlet_format("spam sms"))
 print(pyfiglet.figlet_format("Egypt"))
 
+code =""" 
+-------------------------------------------------------------------------
+- Cod BY : Adel Fox 🇪🇬
+- Github : https://github.com/AdelFox1
+- My User : https://t.me/Opps_Error
+- Telegram: https://t.me/AdelFoxChannel
+- Telegram: https://t.me/A_TEAM_1
+-------------------------------------------------------------------------
+      
+"""
 
-print("#########__Adel___Fox__###########"+n)
+print(W+code)
 
 def orange():
 	number =input(n+P+"[+]Enter Number:")
