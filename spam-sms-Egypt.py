@@ -38,7 +38,7 @@ print(pyfiglet.figlet_format("Egypt"))
 
 code =""" 
 -------------------------------------------------------------------------
-- Cod BY : Adel Fox
+- Code BY : Adel Fox
 - Github : https://github.com/AdelFox1
 - My User : https://t.me/Opps_Error
 - Telegram: https://t.me/AdelFoxChannel
